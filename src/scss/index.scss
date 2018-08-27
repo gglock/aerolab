@@ -1,0 +1,18 @@
+@import 'normalize';
+@import 'fonts';
+@import 'variables';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  min-height: 100%;
+}
